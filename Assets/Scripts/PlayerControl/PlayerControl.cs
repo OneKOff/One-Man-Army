@@ -7,12 +7,13 @@ namespace Player
 {
     public class PlayerControl : MonoBehaviour
     {
-        [SerializeField] private Rigidbody rb = default;
-        [SerializeField] private float controlSpeed = 15f;
+        [SerializeField] private Rigidbody rb;
+        [SerializeField] private float maxSpeed = 15f;
+        [SerializeField] private float acceleration = 25f;
         [SerializeField] private float rushForce = 50f;
         [SerializeField] private float jumpForce = 15f;
 
-        private Vector3 _moveDir;
+        private Vector3 _movement, _targetMovement;
         private bool _canJump = true;
         
         private void Update()
@@ -24,16 +25,31 @@ namespace Player
 
         private void HandleControl()
         {
-            _moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0,
-                Input.GetAxisRaw("Vertical")) * controlSpeed;
-            rb.velocity = _moveDir;
+            _targetMovement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, 
+                Input.GetAxisRaw("Vertical")) * maxSpeed;
+            _movement = Vector3.Lerp(_movement, _targetMovement, Time.deltaTime * acceleration);
+
+            _movement = ClampVector(_movement, maxSpeed);
+            rb.velocity = _movement;
+        }
+
+        private Vector3 ClampVector(Vector3 vector, float maxMagnitude)
+        {
+            float innateMagnitude = vector.magnitude;
+
+            if (innateMagnitude > maxMagnitude)
+            {
+                vector = vector.normalized * maxMagnitude;
+            }
+
+            return vector;
         }
 
         private void HandleRush()
         {
             if (!Input.GetMouseButtonDown(0)) { return; }
             
-            rb.AddForce(_moveDir.normalized * rushForce, ForceMode.Impulse);
+            rb.AddForce(_movement.normalized * rushForce, ForceMode.Impulse);
         }
 
         private void HandleJump()
