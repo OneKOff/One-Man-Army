@@ -13,7 +13,7 @@ namespace MyCamera
 
         private void Start()
         {
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             
             _relativePos = transform.position - Camera.main.transform.position;
             _prevMousePos = Input.mousePosition;
