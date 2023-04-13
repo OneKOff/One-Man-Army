@@ -25,11 +25,16 @@
           </e>
           <e p="Enemy" t="Include">
             <e p="Enemy.cs" t="Include" />
+            <e p="EnemyManager.cs" t="Include" />
+            <e p="IDamageable.cs" t="Include" />
           </e>
           <e p="Interactables" t="Include" />
           <e p="ObjectPool" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerControl.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="HealthBar.cs" t="Include" />
           </e>
         </e>
       </e>
