@@ -5,14 +5,15 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IDamageable
 {
     [SerializeField] private int maxHealth = 100;
+    [SerializeField] private Rigidbody rb;
     [SerializeField] private float speed = 5f;
     [SerializeField] private Transform healthBarPosition;
-    
+
     private HealthBar _assignedHealthBar;
     private int _health;
     private Transform _playerTarget;
 
-    private void Awake()
+    private void Start()
     {
         _health = maxHealth;
         _playerTarget = FindObjectOfType<PlayerControl>().transform;
@@ -21,7 +22,7 @@ public class Enemy : MonoBehaviour, IDamageable
 
     private void Update()
     {
-        transform.position += (_playerTarget.position - transform.position).normalized * speed * Time.deltaTime;
+        rb.velocity = Vector3.Lerp(rb.velocity, (_playerTarget.position - transform.position).normalized * speed, Time.deltaTime);
 
         if (_assignedHealthBar) _assignedHealthBar.transform.position = healthBarPosition.position;
     }

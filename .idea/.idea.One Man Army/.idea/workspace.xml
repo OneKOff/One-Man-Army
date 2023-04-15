@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ea213c-162a-4efe-b3b0-56709a2f550f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/IDamageable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/IDamageable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Enemy/EnemyRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Enemy/EnemyRoot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Building/Tower.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Building/Tower.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Building/BuildObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Building/BuildObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +49,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControl/PlayerControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building/Building.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Building/BuildObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building/BuildingData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building/TowerAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/IDamageable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Building/BuildObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
       </list>
     </option>
@@ -110,7 +111,8 @@
       <workItem from="1678961223135" duration="843000" />
       <workItem from="1680795698529" duration="879000" />
       <workItem from="1681063739890" duration="3872000" />
-      <workItem from="1681385213787" duration="2414000" />
+      <workItem from="1681385213787" duration="2712000" />
+      <workItem from="1681594238249" duration="3392000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private HealthBar healthBarPrefab;
     [SerializeField] private Canvas canvasWorld;
 
-    private List<Enemy> enemies = new List<Enemy>();
+    private List<Enemy> _enemies = new List<Enemy>();
 
     private void Awake()
     {
@@ -23,12 +23,12 @@ public class EnemyManager : MonoBehaviour
     
     public void AddEnemy(Enemy enemy)
     {
-        enemies.Add(enemy);
+        _enemies.Add(enemy);
     }
 
     public void RemoveEnemy(Enemy enemy)
     {
-        enemies.Remove(enemy);
+        _enemies.Remove(enemy);
     }
 
     public HealthBar GetNewHealthBar()
