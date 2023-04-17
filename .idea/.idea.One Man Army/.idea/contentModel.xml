@@ -9,11 +9,16 @@
         <e p="Assets" t="Include">
           <e p="Building" t="Include" />
           <e p="Enemy" t="Include" />
+          <e p="MapObjects" t="Include" />
           <e p="Materials" t="Include" />
+          <e p="Player" t="Include" />
           <e p="UI" t="Include" />
         </e>
         <e p="Prefabs" t="Include" />
         <e p="Scenes" t="Include" />
+        <e p="ScriptableObjects" t="Include">
+          <e p="EnemyWaves" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Building" t="Include">
             <e p="BuildingData.cs" t="Include" />
@@ -27,9 +32,17 @@
           <e p="Enemy" t="Include">
             <e p="Enemy.cs" t="Include" />
             <e p="EnemyManager.cs" t="Include" />
+            <e p="EnemyWave.cs" t="Include" />
+            <e p="EnemyWaveController.cs" t="Include" />
             <e p="IDamageable.cs" t="Include" />
           </e>
-          <e p="Interactables" t="Include" />
+          <e p="Generation" t="Include">
+            <e p="ResourceMapGeneration.cs" t="Include" />
+          </e>
+          <e p="Interactables" t="Include">
+            <e p="BasicCollectible.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
+          </e>
           <e p="ObjectPool" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerAttack.cs" t="Include" />
@@ -37,6 +50,9 @@
           </e>
           <e p="UI" t="Include">
             <e p="HealthBar.cs" t="Include" />
+          </e>
+          <e p="Utility" t="Include">
+            <e p="UtilityForVector.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

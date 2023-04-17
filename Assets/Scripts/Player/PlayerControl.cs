@@ -53,7 +53,7 @@ namespace Player
                 Input.GetAxisRaw("Vertical")) * maxSpeed;
             _movement = Vector3.Lerp(_movement, _targetMovement, Time.deltaTime * acceleration);
 
-            _movement = ClampVector(_movement, maxSpeed);
+            _movement = UtilityForVector.ClampVector(_movement, maxSpeed);
             rb.velocity = _movement;
         }
 
@@ -79,18 +79,6 @@ namespace Player
             {
                 transform.LookAt(hit.point, Vector3.up);
             }
-        }
-
-        private Vector3 ClampVector(Vector3 vector, float maxMagnitude)
-        {
-            float innateMagnitude = vector.magnitude;
-
-            if (innateMagnitude > maxMagnitude)
-            {
-                vector = vector.normalized * maxMagnitude;
-            }
-
-            return vector;
         }
 
         private void HandleRush()
