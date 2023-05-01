@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TowerAI : MonoBehaviour
 {
-    [SerializeField] private Projectile projectilePrefab;
+    [SerializeField] private BasicProjectile projectilePrefab;
     [SerializeField] private float targetRadius = 5f;
     [SerializeField] private float shootCooldown = 1f;
     [SerializeField] private Transform shootPoint;

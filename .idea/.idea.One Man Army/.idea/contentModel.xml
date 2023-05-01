@@ -23,7 +23,6 @@
           <e p="Building" t="Include">
             <e p="BuildingData.cs" t="Include" />
             <e p="BuildObject.cs" t="Include" />
-            <e p="Projectile.cs" t="Include" />
             <e p="TowerAI.cs" t="Include" />
           </e>
           <e p="Camera" t="Include">
@@ -43,10 +42,17 @@
             <e p="BasicCollectible.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
           </e>
-          <e p="ObjectPool" t="Include" />
+          <e p="ObjectPool" t="Include">
+            <e p="IPooledObject.cs" t="Include" />
+            <e p="ObjectPooler.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="PlayerAttack.cs" t="Include" />
             <e p="PlayerControl.cs" t="Include" />
+          </e>
+          <e p="Projectile" t="Include">
+            <e p="BasicProjectile.cs" t="Include" />
+            <e p="ProjectileData.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="HealthBar.cs" t="Include" />

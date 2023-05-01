@@ -18,4 +18,4 @@ MonoBehaviour:
     InnerDelay: 0.5
     RelativeStartTime: 0
     spawnIndexes: 02000000
-  waveStartTime: 1.2
+  waveStartTime: 1

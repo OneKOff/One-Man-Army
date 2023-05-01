@@ -1,5 +1,4 @@
 ﻿using System;
-using Player;
 using UnityEngine;
 
 public class BasicCollectible : MonoBehaviour, Interactable

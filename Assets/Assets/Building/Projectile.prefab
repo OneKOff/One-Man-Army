@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5497289952442610754}
   - component: {fileID: 5497289952442610749}
-  - component: {fileID: 4264423375838194904}
+  - component: {fileID: 3307328991863815024}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -130,7 +130,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4264423375838194904
+--- !u!114 &3307328991863815024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,8 +139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5497289952442610755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87ac3fdd27d41f2b4dcc818797d07d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e3fcead36d463b4dadec485a300934d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flightSpeed: 10
-  damage: 20
+  projectileData: {fileID: 11400000, guid: f0e0112cc4d60034f9a821b4f2ed94cd, type: 2}

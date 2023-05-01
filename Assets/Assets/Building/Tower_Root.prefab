@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6f93e768bf4f0baf96c08529d52de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4264423375838194904, guid: a03339f0eaeec5f43a22c11a0cc7098a, type: 3}
+  projectilePrefab: {fileID: 3307328991863815024, guid: a03339f0eaeec5f43a22c11a0cc7098a, type: 3}
   targetRadius: 5
   shootCooldown: 1
   shootPoint: {fileID: 5764854314701905700}

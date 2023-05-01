@@ -505,6 +505,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &349216601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349216602}
+  m_Layer: 0
+  m_Name: Player_HealthBarPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349216602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349216601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 542362226}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &458786631
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,8 +594,8 @@ GameObject:
   m_Component:
   - component: {fileID: 542362226}
   - component: {fileID: 542362227}
-  - component: {fileID: 542362229}
   - component: {fileID: 542362228}
+  - component: {fileID: 542362229}
   m_Layer: 0
   m_Name: Player_Root
   m_TagString: Untagged
@@ -586,6 +617,7 @@ Transform:
   m_Children:
   - {fileID: 825008357}
   - {fileID: 660285369}
+  - {fileID: 349216602}
   m_Father: {fileID: 1888675788}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -637,6 +669,8 @@ MonoBehaviour:
   jumpForce: 10
   attackPrefab: {fileID: 8773367348927806232, guid: 51af70915b2e83346a01c5e2c2fd8114, type: 3}
   attackCooldown: 0.7
+  maxHealth: 100
+  healthBarPosition: {fileID: 349216602}
 --- !u!1 &557907172
 GameObject:
   m_ObjectHideFlags: 0
