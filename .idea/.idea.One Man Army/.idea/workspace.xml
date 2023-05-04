@@ -20,22 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ea213c-162a-4efe-b3b0-56709a2f550f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool/IPooledObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool/IPooledObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool/ObjectPooler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool/ObjectPooler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile/ProjectileData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile/ProjectileData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile/ExplosiveProjectileBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile/ExplosiveProjectileBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.One Man Army/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/EnemyWaves/Test2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/EnemyWaves/Test2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Building/Projectile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Building/Projectile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Building/TowerAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Building/TowerAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/IDamageable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/IDamageable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactables/BasicCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactables/BasicCollectible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Building/Projectile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Building/Projectile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile/BasicProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile/BasicProjectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +40,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile/ProjectileBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,14 +63,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyWaveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/IDamageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactables/BasicCollectible.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool/ObjectPooler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool/IPooledObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile/ProjectileData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Building/TowerAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile/BasicProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile/BasicProjectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile/ProjectileBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile/ExplosiveProjectileBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -131,7 +128,8 @@
       <workItem from="1681385213787" duration="2712000" />
       <workItem from="1681594238249" duration="3699000" />
       <workItem from="1681716649921" duration="8848000" />
-      <workItem from="1682970117950" duration="2277000" />
+      <workItem from="1682970117950" duration="2795000" />
+      <workItem from="1683233736966" duration="2588000" />
     </task>
     <servers />
   </component>

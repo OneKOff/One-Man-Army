@@ -18,6 +18,7 @@
         <e p="Scenes" t="Include" />
         <e p="ScriptableObjects" t="Include">
           <e p="EnemyWaves" t="Include" />
+          <e p="Projectiles" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="Building" t="Include">
@@ -52,6 +53,8 @@
           </e>
           <e p="Projectile" t="Include">
             <e p="BasicProjectile.cs" t="Include" />
+            <e p="ExplosiveProjectileBehaviour.cs" t="Include" />
+            <e p="ProjectileBehaviour.cs" t="Include" />
             <e p="ProjectileData.cs" t="Include" />
           </e>
           <e p="UI" t="Include">

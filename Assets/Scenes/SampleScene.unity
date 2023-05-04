@@ -669,6 +669,8 @@ MonoBehaviour:
   jumpForce: 10
   attackPrefab: {fileID: 8773367348927806232, guid: 51af70915b2e83346a01c5e2c2fd8114, type: 3}
   attackCooldown: 0.7
+  playerProjectilePrefab: {fileID: 6054196633334000058, guid: 5ce9a96ec3e3fc5448721784f5f79ce5, type: 3}
+  targetMarkerPrefab: {fileID: 4740762896830422637, guid: cb1a6899dd5598b49a77fe1ead66cb1d, type: 3}
   maxHealth: 100
   healthBarPosition: {fileID: 349216602}
 --- !u!1 &557907172

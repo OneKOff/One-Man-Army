@@ -17,6 +17,8 @@ public class PlayerControl : MonoBehaviour, IDamageable
     [Header("Attacking")] 
     [SerializeField] private PlayerAttack attackPrefab;
     [SerializeField] private float attackCooldown;
+    [SerializeField] private BasicProjectile playerProjectilePrefab;
+    [SerializeField] private GameObject targetMarkerPrefab;
 
     [Header("Damageable")] 
     [SerializeField] private int maxHealth;
@@ -83,6 +85,17 @@ public class PlayerControl : MonoBehaviour, IDamageable
         {
             Instantiate(attackPrefab, transform);
             Debug.Log("Attack!");
+            _currentAttackCd = attackCooldown;
+        }
+        
+        if (Input.GetMouseButtonDown(2) && Physics.Raycast(_ray, out hit))
+        {
+            var marker = Instantiate(targetMarkerPrefab, transform);
+            var proj = Instantiate(playerProjectilePrefab, transform);
+            
+            proj.AssignTarget(marker.transform);
+            
+            Debug.Log("Shoot!");
             _currentAttackCd = attackCooldown;
         }
     }
